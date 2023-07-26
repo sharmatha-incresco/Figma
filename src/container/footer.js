@@ -41,7 +41,7 @@ function Footer() {
 
           <div className="text-left content-end"> 
             <div className="flex justify-center">
-              <div className=''>
+              <div className='pl-1'>
                 <img src={Mapblock} alt="Icon1" className="w-fit h-fit mx-auto mb-4" />
               </div>
             </div>
