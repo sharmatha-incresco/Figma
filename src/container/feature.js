@@ -20,7 +20,7 @@ function Feature() {
                     <img src={Lapvdo} alt="Lapvdo" />
                 </div>
             </div>
-             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-5 md:pt-32 md:gap-8 justify-center">
+             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-5 md:pt-32 md:gap-8 md:px-56 justify-center">
                 <div className="flex justify-center">
                     <div>
                     <img src={Icon1} alt="Icon1" className="w-16 h-16 mx-auto mb-4" />
