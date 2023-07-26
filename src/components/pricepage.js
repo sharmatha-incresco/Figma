@@ -30,13 +30,13 @@ function Pricepage() {
         </div>
       </div>
       <div className="md:hidden flex flex-col justify-center mt-4 space-y-4">
-      <div className="pl-10">
+      <div className="pl-8 mb-2">
         <Price1 />
         </div>
-        <div className="pl-8">
+        <div className="pl-8 mb-2">
         <Price2 />
         </div>
-        <div className="pl-10">
+        <div className="pl-8 mb-2 pb-20">
         <Price3 />
         </div>
       </div>

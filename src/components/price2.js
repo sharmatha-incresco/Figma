@@ -2,8 +2,8 @@ import React from "react";
 
 function Price2() {
   return (
-    <div className="text-center content-center bg-blue-500  border border-gray-300 rounded-xl md:w-fit w-80 h-max md:h-fit p-6 md:pl-5 md:pb-32 md:pt-8">
-      <h1 className="text-20px md:font-bold font-bold text-white md:text-20px md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto pt-10 mt-0">
+    <div className="text-center content-center bg-blue-500  border border-gray-300 rounded-xl md:w-fit h-max md:h-fit w-80  p-6 md:pl-5 md:pb-32 md:pt-8">
+      <h1 className="text-20px md:font-bold font-bold text-white md:text-20px md:leading-snug md:mb-4 md:max-w-2xl md:m  x-auto pt-10 mt-0">
         STANDARD
       </h1>
       <h3 className="text-16px text-white  md:text-16px md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto mt-0">

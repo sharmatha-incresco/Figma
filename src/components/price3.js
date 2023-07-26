@@ -2,7 +2,7 @@ import React from "react";
 
 function Price3() {
   return (
-    <div className="text-center  content-center bg-white  border border-gray-300 rounded-xl w-fit pt-8 h-fit p-6">
+    <div className="text-center  content-center bg-white  border border-gray-300 rounded-xl md:w-fit pt-8 h-fit w-80 md:h-fit  p-6">
       <h1 className="text-20px md:font-bold font-bold text-black md:text-20px md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto mt-0">
         BUSINESS
       </h1>

@@ -27,10 +27,10 @@ function Contacts() {
       {/* Grid for Contact Form and Remaining Part */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-5 md:pt-32 md:gap-5 justify-center">
         {/* Social Image (1st column in mobile view) */}
-        <div className=" pl-24 md:hidden h-fit justify-center">
+        <div className="pl-24 md:hidden h-fit justify-center">
           <img src={social} alt="Social" className="h-fit w-fit" />
         </div>
-        <div className=" h-fit hidden justify-center md:block">
+        <div className="h-fit hidden justify-center md:block">
           <ContactForm />
         </div>
         {/* Address, Phone, and Email (2nd column in mobile view) */}
@@ -60,14 +60,11 @@ function Contacts() {
           <div className="pt-6 md:block hidden">
             <img src={samplemap} alt="map" className="w-fit h-fit  mx-auto mb-4" />
           </div>
-          <div className=" md:block hidden h-fit justify-center">
-          <img src={social} alt="Social" className="h-fit w-fit" />
+          <div className="md:block hidden h-fit justify-center">
+            <img src={social} alt="Social" className="h-fit w-fit" />
+          </div>
         </div>
-        </div>
-       
-
-        {/* Contact Form (3rd column in mobile view) */}
-        <div className=" h-fit  justify-center md:hidden">
+        <div className="h-fit justify-center md:hidden py-6 px-10"> 
           <ContactForm />
         </div>
       </div>
