@@ -18,7 +18,7 @@ function Pricepage() {
           Most calendars are <br /> designed for teams.
         </h3>
       </div>
-      <div className="md:grid md:grid-cols-3 grid-cols-1 justify-between flex md:gap-8 px-4 md:pl-56 md:px-7 md:pt-20 pb-20">
+      <div className="md:grid md:grid-cols-3 grid-cols-1  md:justify-center  md:gap-8 px-4 md:pl-56 md:px-7 md:pt-20 pb-20">
         <div className="md:block hidden md:mt-24">
           <Price1 />
         </div>
