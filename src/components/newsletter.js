@@ -36,14 +36,13 @@ function Newsletter()
                         placeholder="Your Email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="md:w-96 w-96 h-12 md:h-16 px-4 py-2 mb-2 border text-black bg-gray-100 rounded-full focus:outline-none focus:ring focus:border-blue-300"
+                        className="md:w-96 w-56 h-12 md:h-16 px-4 py-2 mb-2 border text-black bg-gray-100 rounded-full focus:outline-none focus:ring focus:border-blue-300"
                     />
-
                    <div className="md:pl-6"> 
                     <button
                         type="submit"
                         onClick={handleSubscribe}
-                        className="md:w-32 w-96 h-12 md:h-16 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
+                        className="md:w-32 w-56 h-12 md:h-16 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
                     >
                         Subscribe
                     </button>
