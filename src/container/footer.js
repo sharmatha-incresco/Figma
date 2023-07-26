@@ -41,16 +41,16 @@ function Footer() {
 
           <div className="text-left content-end"> 
             <div className="flex justify-center">
-              <div className='pl-2'>
+              <div className=''>
                 <img src={Mapblock} alt="Icon1" className="w-fit h-fit mx-auto mb-4" />
               </div>
             </div>
             <div className="flex justify-center">
-              <div className='pl-1'>
+              <div className=''>
                 <img src={Phoneblock} alt="Icon2" className="w-fit h-fit mx-auto mb-4" />
               </div>
             </div>
-            <div className="flex justify-center items-center pl-3 pr-4 space-x-3">
+            <div className="flex justify-start items-center pl-3 pr-4 space-x-3">
               <img src={TwitterLogo} alt="Twitter" className="h-8 w-8" />
               <img src={FacebookLogo} alt="Facebook" className="h-8 w-8" />
               <img src={LinkedInLogo} alt="LinkedIn" className="h-10 w-10" />
