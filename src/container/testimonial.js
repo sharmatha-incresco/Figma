@@ -11,10 +11,10 @@ function Testimoni() {
       <div className="text-center flex justify-center content-center pt-3">
         <img src={ibmlogo} alt="ibm" />
       </div>
-      <h3 className=" hidden md:block text-xl pt-6 text-black  mt-0 ">
+      <h3 className=" hidden md:block text-xl pt-6 text-[#374754]  mt-0 ">
         Most calendars are designed for teams. Slate is designed for freelancers <br className="hidden md:block" />who want simple way to plan their schedule.
       </h3>
-      <h3 className=" md:hidden text-base pt-6 text-black  mt-0 ">
+      <h3 className=" md:hidden text-base pt-6 text-[#374754]  mt-0 ">
         Most calendars are designed for teams.<br /> Slate is designed for freelancers who want a <br /> simple way to plan their schedule.
       </h3>
 

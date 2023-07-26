@@ -12,7 +12,7 @@ function Partners() {
         <h1 className="text-4xl text-black md:text-6xl md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto mt-0">
           Partners
         </h1>
-        <h3 className="text-base pt-3 md:text-3xl md:pt-8 md:max-w-xl md:text-black md:mx-auto">
+        <h3 className="text-base pt-3 md:text-3xl md:pt-8 md:max-w-xl md:text-[#374754] md:mx-auto">
           Most calendars are designed for teams.<br /> Slate is designed for freelancers.
         </h3>
       </div>
