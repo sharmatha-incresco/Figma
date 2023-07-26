@@ -33,7 +33,7 @@ const Header = (props) => {
             <a href="#about" className="px-3 py-2 hover:text-gray-300">About</a>
             <a href="#contact" className="px-3 py-2 hover:text-gray-300">Contact</a>
           </div>
-          <div className="md:pl-60">
+          <div className="md:pl-48">
            
             <FigmaLogo className="mr-4 md:block" />
           </div>
