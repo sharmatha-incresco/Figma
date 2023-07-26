@@ -19,7 +19,7 @@ function Pricepage() {
       </div>
 
       <div className="md:flex hidden md:justify-center md:gap-8 px-4  md:px-7 md:pt-20 pb-20">
-        <div className="flex flex-col justify-center space-y-8 md:flex-row md:space-y-0 md:space-x-8">
+        <div className="flex  flex-col justify-center space-y-8 md:flex-row md:space-y-0 md:space-x-8">
           <div className="pt-10">
           <Price1 />
           </div>
