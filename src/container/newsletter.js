@@ -25,7 +25,7 @@ function Newsletter() {
           </div>
         </div>
         <div>
-          <h3 className="hidden md:block md:font-bold md:text-2xl md:pr-96 md:first-letter:text-left">At your fingertips</h3>
+          <h3 className="hidden md:block md:font-bold md:text-2xl md:pr-96 md:text-left">At your fingertips</h3>
           <h1 className="hidden md:block md:pt-4 md:text-7xl md:pr-44 md:text-left">Lightning-fast <br />prototyping</h1>
           <h3 className="md:block font-bold text-base md:text-2xl md:pt-12 md:pr-52 md:text-left">Subscribe to our Newsletter</h3>
           <h3 className="md:block text-base md:text-2xl md:pt-3 pt-2 md:pr-44 md:text-left">Available exclusively on Figmaland</h3>

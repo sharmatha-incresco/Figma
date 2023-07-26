@@ -9,7 +9,7 @@ function Feature() {
             <h1 className="text-5xl text-black md:text-6xl  md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto mt-0 ">
                 Features
             </h1>
-            <h3 className=" md:block hidden md:text-3xl md:max-w-xl md:text-black md:mx-auto ">
+            <h3 className=" md:block hidden md:text-3xl md:max-w-xl md:text-[#374754] md:mx-auto ">
                 Most calendars are designed for teams.<br /> Slate is designed for freelancers.
             </h3>
             <h3 className=" text-xl pt-2 md:hidden ">
@@ -20,7 +20,7 @@ function Feature() {
                     <img src={Lapvdo} alt="Lapvdo" />
                 </div>
             </div>
-             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-5 md:pt-32 md:gap-8 md:px-56 justify-center">
+             <div className="grid grid-cols-1 text-[#374754] md:grid-cols-3 gap-10 pt-5 md:pt-32 md:gap-8 md:px-56 justify-center">
                 <div className="flex justify-center">
                     <div>
                     <img src={Icon1} alt="Icon1" className="w-16 h-16 mx-auto mb-4" />

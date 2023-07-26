@@ -12,14 +12,14 @@ import social from "../photos/social.png";
 function Contacts() {
   return (
     <div className="text-center content-center pb-28 pt-20">
-      <h1 className="text-4xl text-black md:text-6xl md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto mt-0">
+      <h1 className="text-4xl text-[#374754] md:text-6xl md:leading-snug md:mb-4 md:max-w-2xl md:mx-auto mt-0">
         Contacts
       </h1>
       <div className="md:pt-5 pt-2">
-        <h3 className="md:block hidden md:text-lg md:max-w-xl md:text-black md:mx-auto">
+        <h3 className="md:block hidden md:text-lg md:max-w-xl md:text-[#374754] md:mx-auto">
           Most calendars are designed for teams.<br /> Slate is designed for freelancers.
         </h3>
-        <h3 className="text-base pt-1 text-black md:hidden">
+        <h3 className="text-base pt-1 text-[#374754] md:hidden">
           Most calendars are <br /> designed for teams.
         </h3>
       </div>
