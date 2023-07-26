@@ -1,8 +1,7 @@
-// Pricepage.js
 import React from "react";
-import Price1 from "./price1";
-import Price2 from "./price2";
-import Price3 from "./price3";
+import Price1 from "../components/price1";
+import Price2 from "../components/price2";
+import Price3 from "../components/price3";
 
 function Pricepage() {
   return (
@@ -18,26 +17,28 @@ function Pricepage() {
           Most calendars are <br /> designed for teams.
         </h3>
       </div>
-      <div className="md:grid md:grid-cols-3 grid-cols-1  md:justify-center  md:gap-8 px-4 md:pl-56 md:px-7 md:pt-20 pb-20">
-        <div className="md:block hidden md:mt-24">
+
+      <div className="md:flex md:justify-center md:gap-8 px-4 md:pl-56 md:px-7 md:pt-20 pb-20">
+        <div className="flex flex-col justify-center space-y-8 md:flex-row md:space-y-0 md:space-x-8">
+          <div className="pt-10">
           <Price1 />
-        </div>
-        <div className="md:block hidden md:mt-5">
+          </div>
           <Price2 />
-        </div>
-        <div className="md:block hidden md:mt-24">
+          <div className="pt-10">
           <Price3 />
+          </div>
         </div>
       </div>
+
       <div className="md:hidden flex flex-col justify-center mt-4 space-y-4">
-      <div className="pl-8 mb-2">
-        <Price1 />
+        <div className="pl-8 mb-2">
+          <Price1 />
         </div>
         <div className="pl-8 mb-2">
-        <Price2 />
+          <Price2 />
         </div>
         <div className="pl-8 mb-2 pb-20">
-        <Price3 />
+          <Price3 />
         </div>
       </div>
     </div>

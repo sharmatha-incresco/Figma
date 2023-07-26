@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "./contactform";
+import ContactForm from "../components/contactform";
 import Map from "../photos/map.png";
 import Phone from "../photos/phone.png";
 import Mail from "../photos/mail.png";
