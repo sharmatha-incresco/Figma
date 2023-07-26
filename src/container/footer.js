@@ -46,7 +46,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className=''>
+              <div className='pr-1'>
                 <img src={Phoneblock} alt="Icon2" className="w-fit h-fit mx-auto mb-4" />
               </div>
             </div>
